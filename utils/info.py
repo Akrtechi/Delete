@@ -18,11 +18,11 @@
 
 import os
 
-API_ID       = int(os.environ.get("API_ID", ""))
-API_HASH     = os.environ.get("API_HASH", "")
-BOT_TOKEN    = os.environ.get("BOT_TOKEN", "")
+API_ID       = int(os.environ.get("API_ID", "5521321929"))
+API_HASH     = os.environ.get("API_HASH", "42e049ac8d3d69b66a9768170c0bcff6")
+BOT_TOKEN    = os.environ.get("BOT_TOKEN", "6589613024:AAGGxzWZ654yY2xk2dILUb0NaDDqr4BE7Gg")
 SESSION      = os.environ.get("SESSION", "")
-TIME         = int(os.environ.get("TIME", 10))
+TIME         = int(os.environ.get("TIME", 600))
 CHATS        = [int(cht) for cht in os.environ.get("CHATS", "").split()]
 WHITE_LIST   = [int(wht) for wht in os.environ.get("WHITE_LIST", "").split()]
 BLACK_LIST   = [int(blk) for blk in os.environ.get("BLACK_LIST", "5521321929").split()]
